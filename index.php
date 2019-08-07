@@ -40,7 +40,7 @@ session_start();
 			echo "<div class='error'>{$_GET["mes"]}</div>";
 		}
 		?>
-			<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>"
+			<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
 				<label>User Name</label><br>
 				<input type="text" name="aname" required class="input"><br><br>
 				<label>Password</label><br>
